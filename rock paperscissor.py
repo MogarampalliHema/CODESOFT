@@ -1,7 +1,7 @@
 import random
 
 def get_user_choice():
-    user_choice = input("Welcome to Rock, Paper, Scissors with BLACKBOXAI!\n"
+    user_choice = input("Welcome to Rock, Paper, Scissors \n"
                          "Please enter your choice (rock, paper, or scissors): ").lower()
     if user_choice in ['rock', 'paper', 'scissors']:
         return user_choice
